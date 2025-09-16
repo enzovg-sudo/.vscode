@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Saúde e Bem-Estar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+        .hero { background: linear-gradient(to right, #667eea 0%, #764ba2 100%); }
+        .service-card { transition: transform 0.3s; }
+        .service-card:hover { transform: translateY(-5px); }
+        .team-card { transition: opacity 0.3s; }
+        .team-card:hover { opacity: 0.9; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+ 
+    <header class="hero text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Clínica Saúde e Bem-Estar</h1>
+            <p class="text-xl md:text-2xl">Seu parceiro para uma vida saudável e equilibrada</p>
+        </div>
+    </header>
+
+   
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-center mb-8">Sobre Nós</h2>
+            <p class="text-lg text-center max-w-4xl mx-auto leading-relaxed">Na Clínica Saúde e Bem-Estar, oferecemos cuidados integrativos focados no bem-estar físico e mental. Nossa missão é proporcionar atendimento de qualidade com profissionais especializados, utilizando tecnologias avançadas e um ambiente acolhedor para seus pacientes.</p>
+        </div>
+    </section>
+
+ 
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-center mb-8">Nossos Serviços</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+              
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg">
+                    <div class="mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1c1dbc00-9c42-4104-bb45-42ea869f4f81.png" />
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Exames Clínicos</h3>
+                    <p class="text-base leading-relaxed">Realizamos uma ampla gama de exames laboratoriais e de imagem, utilizando tecnologia de ponta para diagnósticos precisos e rápidos. Inclui análise de sangue, raio-X, ultrassom e ressonância magnética, garantindo resultados em tempo recorde.</p>
+                </div>
+                
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg">
+                    <div class="mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f3c44802-f500-40a4-946a-814e8ba47fb1.png" />
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Fisioterapia e Reabilitação</h3>
+                    <p class="text-base leading-relaxed">Oferecemos sessões de fisioterapia personalizadas para recuperação de lesões, melhoria da mobilidade e alívio de dores crônicas. Nossos especialistas utilizam técnicas inovadoras como terapia manual, exercícios funcionais e apoio psicológico integrado.</p>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <h3 class="text-xl font-semibold mb-4">Serviços Adicionais</h3>
+                <ul class="list-disc inline-block text-left">
+                    <li>Consultas especializadas em cardiologia, dermatologia e nutrição</li>
+                    <li>Acompanhamento pós-tratamento com suporte psicológico</li>
+                    <li>Programa de bem-estar preventivo com check-ups anuais</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-center mb-8">Nossa Equipe</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+        
+                <div class="team-card bg-gray-100 p-6 rounded-lg text-center">
+                    <div class="mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/44bb2ac2-6bb5-4741-b366-6946104c3d7c.png" class="rounded-full mx-auto w-32 h-32 object-cover" />
+                    </div>
+                    <h4 class="text-xl font-semibold">Dra. Eduarda Pires</h4>
+                    <p class="text-gray-600">Médica Cardiologista</p>
+                </div>
+               
+                <div class="team-card bg-gray-100 p-6 rounded-lg text-center">
+                    <div class="mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/18aa0130-dcb6-4c09-8056-3f167a82efa7.png" class="rounded-full mx-auto w-32 h-32 object-cover" />
+                    </div>
+                    <h4 class="text-xl font-semibold">Enzo Viveiros</h4>
+                    <p class="text-gray-600">Fisioterapeuta</p>
+                </div>
+               
+                <div class="team-card bg-gray-100 p-6 rounded-lg text-center">
+                    <div class="mb-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/9704a882-9d3a-4cd3-977c-195847169cea.png" class="rounded-full mx-auto w-32 h-32 object-cover" />
+                    </div>
+                    <h4 class="text-xl font-semibold">Dra. Flora Matos</h4>
+                    <p class="text-gray-600">Nutricionista</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-center mb-8">Entre em Contato</h2>
+            <form id="contact-form" class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="mb-4">
+                    <label for="cpf" class="block text-sm font-medium text-gray-700">CPF</label>
+                    <input type="text" id="cpf" name="cpf" required 
+                     class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm 
+                     focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                <div class="mb-4">
+                    <label for="nome" class="block text-sm font-medium text-gray-700">Nome</label>
+                    <input type="text" id="nome" name="nome" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">E-mail</label>
+                    <input type="email" id="email" name="email" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div class="mb-4">
+                    <label for="cidade" class="block text-sm font-medium text-gray-700">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div class="mb-4">
+                    <label for="estado" class="block text-sm font-medium text-gray-700">Estado</label>
+                    <input type="text" id="estado" name="estado" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+
+                </button>
+                </div>
+                <button type="submit" class="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Enviar</button>
+                    </div>
+                <div class="flex gap-4 mt-4">
+                     <button type="button" id="consultar" 
+                       class="w-1/2 bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700">
+                           Consultar por CPF
+                  </button>
+                <button type="button" id="cancelar" 
+                            class="w-1/2 bg-red-600 text-white py-2 px-4 rounded-md hover:bg-red-700">
+                          Cancelar Agendamento
+            </form>
+        </div>
+
+        </section>
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>© 2025 Clínica Saúde e Bem-Estar. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+function salvarAgendamento(dados) {
+    let agendamentos = JSON.parse(localStorage.getItem('agendamentos')) || [];
+    agendamentos.push(dados);
+    localStorage.setItem('agendamentos', JSON.stringify(agendamentos));
+}
+
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const agendamento = {
+        nome: document.getElementById('nome').value,
+        email: document.getElementById('email').value,
+        cidade: document.getElementById('cidade').value,
+        estado: document.getElementById('estado').value,
+        cpf: document.getElementById('cpf').value
+    };
+    salvarAgendamento(agendamento);
+    alert('✅ Agendado com sucesso!');
+});
+document.getElementById('consultar').addEventListener('click', function() {
+    const cpf = document.getElementById('cpf').value.trim();
+    let agendamentos = JSON.parse(localStorage.getItem('agendamentos')) || [];
+    const resultado = agendamentos.find(a => a.cpf === cpf);
+    if (resultado) {
+        alert(
+            `📋 Agendamento encontrado:\n\n` +
+            `Nome: ${resultado.nome}\n` +
+            `E-mail: ${resultado.email}\n` +
+            `Cidade: ${resultado.cidade}\n` +
+            `Estado: ${resultado.estado}`
+        );
+    } else {
+        alert('⚠️ Nenhum agendamento encontrado para este CPF.');
+    }
+});
+document.getElementById('cancelar').addEventListener('click', function() {
+    const cpf = document.getElementById('cpf').value.trim();
+    let agendamentos = JSON.parse(localStorage.getItem('agendamentos')) || [];
+    const novoArray = agendamentos.filter(a => a.cpf !== cpf);
+
+    if (novoArray.length !== agendamentos.length) {
+        localStorage.setItem('agendamentos', JSON.stringify(novoArray));
+        alert('❌ Agendamento cancelado com sucesso.');
+    } else {
+        alert('⚠️ Nenhum agendamento encontrado para este CPF.');
+    }
+
+    
+});
+
+    
+
+
+</script>
+</body>
+</html>
+</content>
+</create_file>
+                                         
